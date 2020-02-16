@@ -1,0 +1,100 @@
+.users-data {
+  margin: 0;
+  padding: 0;
+  width: 320px;
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.users-data__container {
+  width: 280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.users-data__legend-for-users-surname,
+.users-data__legend-for-users-name,
+.users-data__legend-for-users-patronymic {
+  font-family: "Open Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 30px;
+  color: #d22856;
+}
+
+.users-data__users-surname,
+.users-data__users-name,
+.users-data__users-patronymic {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #283645;
+  min-height: 63px;
+  min-width: 280px;
+  border: 2px solid #e5e5e5;
+}
+
+@media (min-width: 660px) {
+
+  .users-data {
+    width: 660px;
+  }
+
+  .users-data__container {
+    width: 620px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .users-data__users-surname,
+  .users-data__users-name,
+  .users-data__users-patronymic {
+    width: 520px;
+    align-self: center;
+  }
+
+  .users-data__legend-for-users-surname,
+  .users-data__legend-for-users-name,
+  .users-data__legend-for-users-patronymic {
+    align-self: center;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .users-data {
+    width: 480px;
+  }
+
+  .users-data__container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .users-data__users-surname,
+  .users-data__users-patronymic {
+    width: 340px;
+  }
+
+  .users-data__users-name {
+    width: 370px;
+  }
+
+  .users-data__legend-for-users-surname {
+    margin-right: 40px;
+  }
+
+  .users-data__legend-for-users-patronymic {
+    margin-right: 40px;
+  }
+
+  .users-data__legend-for-users-name {
+      margin-right: 50px;
+  }
+
+}

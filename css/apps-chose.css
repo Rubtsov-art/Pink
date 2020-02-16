@@ -1,0 +1,31 @@
+.apps-chose {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: #f2f2f2; }
+
+.apps-chose__platform {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #283645; }
+
+@media (min-width: 660px) {
+  .apps-chose {
+    width: 620px;
+    background-color: white;
+    border: 2px solid #e5e5e5; }
+  .apps-chose__legend {
+    margin-left: 110px;
+    padding-left: 30px;
+    padding-right: 30px; } }
+
+@media (min-width: 1200px) {
+  .apps-chose {
+    width: 435px; }
+  .apps-chose__legend {
+    margin-left: 15px;
+    padding-left: 20px;
+    padding-right: 20px; } }
+
+/*# sourceMappingURL=apps-chose.css.map */

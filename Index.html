@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pink</title>
+    <link rel="preload" src="fonts/OpenSans-Regular.woff2" as="font">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/page-header.css">
+    <link rel="stylesheet" href="css/visually-hidden.css">
+    <link rel="stylesheet" href="css/site-navigation.css">
+    <link rel="stylesheet" href="css/download-links.css">
+    <link rel="stylesheet" href="css/advantages.css">
+    <link rel="stylesheet" href="css/reviews.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/pagination.css">
+    <link rel="stylesheet" href="css/tariffs.css">
+    <link rel="stylesheet" href="css/contacts.css">
+    <link rel="stylesheet" href="css/main-title.css">
+    <link rel="stylesheet" href="css/another-users-photos.css">
+    <link rel="stylesheet" href="css/commentator-name.css">
+    <link rel="stylesheet" href="css/comment-time.css">
+    <link rel="stylesheet" href="css/comment-text.css">
+    <link rel="stylesheet" href="css/like.css">
+    <link rel="stylesheet" href="css/like-counter.css">
+    <link rel="stylesheet" href="css/photo-post.css">
+    <link rel="stylesheet" href="css/range-wrapper.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/page-footer.css">
+    <link rel="stylesheet" href="css/contest-registration.css">
+    <link rel="stylesheet" href="css/users-data.css">
+    <link rel="stylesheet" href="css/crazy-things.css">
+    <link rel="stylesheet" href="css/users-contacts.css">
+    <link rel="stylesheet" href="css/apps-chose.css">
+    <link rel="stylesheet" href="css/emotions.css">
+    <link rel="stylesheet" href="css/success-submit.css">
+    <link rel="stylesheet" href="css/unsuccessful-submit.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/effect.css">
+  </head>
+  <body>
+
+    <header class="page-header">
+
+      <nav class="site-navigation">
+        <ul class="site-navigation__list">
+          <li class="site-navigation__item"><a class="site-navigation__link" href="#">Главная</a></li>
+          <li class="site-navigation__item"><a class="site-navigation__link" href="#">Фотографии</a></li>
+          <li class="site-navigation__item"><a class="site-navigation__link" href="#">Конкурс</a></li>
+          <li class="site-navigation__item"><a class="site-navigation__link" href="#">HTML Academy</a></li>
+          <li class="site-navigation__item">
+            <div class="site-navigation__container">
+              <a class="site-navigation__logo logo" href="#">
+                <svg class="site-navigation__logo-image" version="1" xmlns="http://www.w3.org/2000/svg" width="74.426" height="22.859" viewBox="0 0 74.426 22.859"><g fill="#FFF"><path d="M0 1.45C0 .74.58.16 1.256.16h7.18c5.087 0 8.436 2.705 8.436 7.148v.064c0 4.86-4.057 7.373-8.854 7.373H2.544v6.825c0 .708-.58 1.288-1.288 1.288C.58 22.858 0 22.278 0 21.57V1.45zm8.114 10.978c3.734 0 6.182-1.996 6.182-4.958v-.065c0-3.22-2.415-4.894-6.054-4.894H2.544v9.918h5.57zM21.73 1.288C21.73.58 22.307 0 22.982 0c.71 0 1.288.58 1.288 1.288V21.57c0 .71-.578 1.29-1.287 1.29-.676 0-1.255-.58-1.255-1.29V1.29zM30.87 1.32c0-.676.58-1.256 1.256-1.256h.354c.58 0 .934.29 1.288.74l13.684 17.45V1.256C47.452.58 47.998 0 48.707 0c.676 0 1.223.58 1.223 1.256v20.348c0 .676-.482 1.19-1.158 1.19h-.13c-.547 0-.933-.32-1.32-.77L33.35 4.153v17.45c0 .675-.548 1.255-1.256 1.255-.677 0-1.224-.58-1.224-1.257V1.32zM56.3 1.288C56.3.58 56.88 0 57.556 0c.708 0 1.287.58 1.287 1.288v12.33L71.69.452c.29-.257.58-.45.998-.45.676 0 1.224.612 1.224 1.256 0 .354-.16.644-.42.9l-7.983 7.92 8.563 10.562c.225.29.354.547.354.934 0 .676-.58 1.288-1.287 1.288-.483 0-.806-.258-1.03-.58l-8.403-10.463-4.862 4.86v4.895c0 .708-.58 1.288-1.287 1.288-.677 0-1.256-.58-1.256-1.288V1.288z"/></g></svg>
+              </a>
+              <button class="site-navigation__toggle" type="button" aria-label:"Закрыть меню">
+                <svg class="site-navigation__svg" version="1" xmlns="http://www.w3.org/2000/svg" width="23.866" height="23.866" viewBox="0 0 23.866 23.866">
+                  <path d="M15.087 11.933l8.56-8.56c.293-.292.293-.767 0-1.06L21.554.22c-.14-.14-.33-.22-.53-.22s-.39.08-.53.22l-8.56 8.56L3.373.22c-.283-.282-.78-.282-1.062 0L.22 2.313c-.293.293-.293.768 0 1.06l8.56 8.56-8.56 8.56c-.293.292-.293.767 0 1.06l2.093 2.094c.14.14.33.22.53.22s.39-.08.53-.22l8.56-8.56 8.56 8.56c.142.14.332.22.53.22s.39-.08.53-.22l2.094-2.094c.293-.293.293-.768 0-1.06l-8.56-8.56z"/>
+                </svg>
+              </button>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="page-header__main-menu">
+        <div class="page-header__wrapper">
+          <div class="page-header__container">
+            <a class="page-header__logo logo" href="#">
+              <svg class="page-header__logo-image" version="1" xmlns="http://www.w3.org/2000/svg" width="74.426" height="22.859" viewBox="0 0 74.426 22.859"><g fill="#FFF"><path d="M0 1.45C0 .74.58.16 1.256.16h7.18c5.087 0 8.436 2.705 8.436 7.148v.064c0 4.86-4.057 7.373-8.854 7.373H2.544v6.825c0 .708-.58 1.288-1.288 1.288C.58 22.858 0 22.278 0 21.57V1.45zm8.114 10.978c3.734 0 6.182-1.996 6.182-4.958v-.065c0-3.22-2.415-4.894-6.054-4.894H2.544v9.918h5.57zM21.73 1.288C21.73.58 22.307 0 22.982 0c.71 0 1.288.58 1.288 1.288V21.57c0 .71-.578 1.29-1.287 1.29-.676 0-1.255-.58-1.255-1.29V1.29zM30.87 1.32c0-.676.58-1.256 1.256-1.256h.354c.58 0 .934.29 1.288.74l13.684 17.45V1.256C47.452.58 47.998 0 48.707 0c.676 0 1.223.58 1.223 1.256v20.348c0 .676-.482 1.19-1.158 1.19h-.13c-.547 0-.933-.32-1.32-.77L33.35 4.153v17.45c0 .675-.548 1.255-1.256 1.255-.677 0-1.224-.58-1.224-1.257V1.32zM56.3 1.288C56.3.58 56.88 0 57.556 0c.708 0 1.287.58 1.287 1.288v12.33L71.69.452c.29-.257.58-.45.998-.45.676 0 1.224.612 1.224 1.256 0 .354-.16.644-.42.9l-7.983 7.92 8.563 10.562c.225.29.354.547.354.934 0 .676-.58 1.288-1.287 1.288-.483 0-.806-.258-1.03-.58l-8.403-10.463-4.862 4.86v4.895c0 .708-.58 1.288-1.287 1.288-.677 0-1.256-.58-1.256-1.288V1.288z"/></g>
+              </svg>
+            </a>
+            <button class="page-header__toggle" type="button" aria-label:"Открыть меню">
+              <svg class="page-header__svg" version="1" xmlns="http://www.w3.org/2000/svg" width="49.945" height="24.007" viewBox="0 0 49.945 24.007"><path fill="#231F20" d="M1.137 0C.51 0 0 .428 0 1.01v1.98C0 3.55.494 4 1.138 4h47.67c.63 0 1.14-.427 1.14-1.01V1.01c0-.558-.495-1.01-1.14-1.01H1.14zm0 10.003C.51 10.003 0 10.43 0 11.013v1.98c0 .557.494 1.01 1.138 1.01h47.67c.63 0 1.14-.428 1.14-1.01v-1.98c0-.558-.495-1.01-1.14-1.01H1.14zm0 10.002c-.627 0-1.137.43-1.137 1.01v1.982c0 .557.494 1.01 1.138 1.01h47.67c.63 0 1.14-.428 1.14-1.01v-1.98c0-.56-.495-1.012-1.14-1.012H1.14z"/>
+                <path fill="#231F20" d="M1.137 0C.51 0 0 .428 0 1.01v1.98C0 3.55.494 4 1.138 4h47.67c.63 0 1.14-.427 1.14-1.01V1.01c0-.558-.495-1.01-1.14-1.01H1.14zm0 10.003C.51 10.003 0 10.43 0 11.013v1.98c0 .557.494 1.01 1.138 1.01h47.67c.63 0 1.14-.428 1.14-1.01v-1.98c0-.558-.495-1.01-1.14-1.01H1.14zm0 10.002c-.627 0-1.137.43-1.137 1.01v1.982c0 .557.494 1.01 1.138 1.01h47.67c.63 0 1.14-.428 1.14-1.01v-1.98c0-.56-.495-1.012-1.14-1.012H1.14z"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <picture>
+          <source srcset="img/iphone-hand-desktop@1x.png, img/iphone-hand-desktop@2x.png 2x" media="(min-width: 1200px)">
+          <source srcset="img/iphone-hand-tablet@1x.png, img/iphone-hand-tablet@2x.png 2x" media="(min-width: 660px)">
+          <img class="page-header__phone--mobile" srcset="img/iphone-hand-mobile.png, img/iphone-hand-mobile@2x.png 2x" alt="pink в действии">
+        </picture>
+
+    </header>
+    <main class="page-main">
+
+      <section class="download-links">
+        <div class="download-links__container">
+          <h2 class="download-links__title">Взгляните на жизнь иначе!</h2>
+          <a class="download-links__main-link" href="Itunes">Скачать приложние</a>
+          <ul class="download-links__list">
+            <li class="download-links__item"><a class="download-links__link download-Itunes" href="Itunes"><span class="visually-hidden">Скачать с Itunes</span></a></li>
+            <li class="download-links__item"><a class="download-links__link download-PlayMarket" href="PlayMarket"><span class="visually-hidden">Скачать с PlayMarket</span></a></li>
+            <li class="download-links__item"><a class="download-links__link download-Microsoft" href="Microsoft"><span class="visually-hidden">Скачать с Microsoft</span></a></li>
+          </ul>
+          <p class="download-links__legend">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+      </div>
+      </section>
+
+      <section class="advantages">
+        <div class="advantages__titles">
+          <h2 class="advantages__title advantages__title--first">Устали от серости мегаполиса?</h2>
+          <h2 class="advantages__title advantages__title--second">Нам есть, что вам предложить!</h2>
+        </div>
+        <div class="advantages__container">
+          <ul class="advantages__list">
+            <li class="advantages__item">
+              <h3 class="advantages__slogan">Поднимает настроение</h3>
+              <p class="advantages__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+            </li>
+            <li class="advantages__item">
+              <h3 class="advantages__slogan">Меняет мир вокруг</h3>
+              <p class="advantages__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+            </li>
+            <li class="advantages__item">
+              <h3 class="advantages__slogan">Заводит новых друзей</h3>
+              <p class="advantages__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+            </li>
+          </ul>
+          <div class="advantages__image-wrapper">
+            <img class="advantages__image-first" height="482" src="img/iphone-case-mobile@2x.png" alt="Пинк в действии">
+            <img class="advantages__image-second" height="482" src="img/iphone-case-mobile@2x.png" alt="Пинк в действии">
+            <img class="advantages__image-third" height="482" src="img/iphone-case-mobile@2x.png" alt="Пинк в действии">
+            <img class="advantages__overlay-first" width="238" height="430" src="img/iphone-screen-mobile-3@2x.png" alt="Пинк в действии">
+            <img class="advantages__overlay-second" width="238" height="430" src="img/iphone-screen-mobile-2@2x.png" alt="Пинк в действии">
+            <img class="advantages__overlay-third" width="238" height="430" src="img/iphone-screen-mobile-1@2x.png" alt="Пинк в действии">
+          </div>
+        </div>
+      </section>
+
+      <section class="effect">
+        <div class="effect__container">
+          <svg class="effct__timer" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	         width="241" height="283" viewBox="0 0 298 345.1" enable-background="new 0 0 298 345.1" xml:space="preserve">
+           <path fill="#DEDEDE" d="M264.6,102.1l5.4-5.4c7.7-7.7,9.1-18.9,3.1-24.9c-6-6-17.2-4.6-24.9,3.1l-5.4,5.4c-21-17-46.6-28.4-74.7-32
+	          v-9.6h7.7c10.9,0,19.8-8.7,19.8-19.4S186.6,0,175.7,0h-53.3c-10.9,0-19.8,8.7-19.8,19.4s8.9,19.4,19.8,19.4h7.7v9.6
+	           C56.7,57.6,0,120.2,0,196.1c0,82.3,66.7,149,149,149c82.3,0,149-66.7,149-149C298,160.4,285.5,127.7,264.6,102.1z M149,306.3
+	           c-60.8,0-110.2-49.3-110.2-110.2c0-60.8,49.3-110.2,110.2-110.2c60.8,0,110.2,49.3,110.2,110.2C259.2,256.9,209.8,306.3,149,306.3z"/>
+            <path fill="#D22856" d="M149.5,69.6C79.6,69.6,23,126.2,23,196.1c0,69.9,56.6,126.5,126.5,126.5S276,266,276,196.1
+	           C276,126.2,219.4,69.6,149.5,69.6z M149.5,306.8c-60.8,0-110.2-49.3-110.2-110.2c0-60.8,49.3-110.2,110.2-110.2
+	           c60.8,0,110.2,49.3,110.2,110.2C259.7,257.5,210.3,306.8,149.5,306.8z"/>
+            <g>
+	            <path fill="#D22856" d="M144.2,232H84.3v-12.6l21.5-21.7c6.4-6.5,10.5-11,12.5-13.6c2-2.5,3.4-4.9,4.2-7c0.9-2.1,1.3-4.4,1.3-6.7
+		            c0-3.4-0.9-6-2.8-7.7c-1.9-1.7-4.4-2.5-7.6-2.5c-3.3,0-6.5,0.8-9.7,2.3c-3.1,1.5-6.4,3.7-9.8,6.5l-9.8-11.7
+		            c4.2-3.6,7.7-6.1,10.5-7.6c2.8-1.5,5.8-2.6,9.1-3.4c3.3-0.8,7-1.2,11-1.2c5.4,0,10.1,1,14.2,2.9c4.1,2,7.3,4.7,9.6,8.2
+		            c2.3,3.5,3.4,7.5,3.4,12.1c0,3.9-0.7,7.6-2.1,11.1c-1.4,3.5-3.5,7-6.4,10.6c-2.9,3.6-8,8.8-15.4,15.5l-11,10.4v0.8h37.3V232z"/>
+	            <path fill="#D22856" d="M214.6,214.3h-10.3V232h-17.7v-17.8H150v-12.6l37.6-55.3h16.7v53.8h10.3V214.3z M186.6,200.2v-14.5
+		           c0-2.4,0.1-5.9,0.3-10.5c0.2-4.6,0.4-7.3,0.5-8h-0.5c-1.4,3.2-3.2,6.3-5.2,9.4L166,200.2H186.6z"/>
+            </g>
+          </svg>
+          <div class="effect__wrapper">
+            <h2 class="effect__title">Эффект на 24 часа!</h2>
+            <p class="effect__text">Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!</p>
+            <a class="effect__link" href="#">Узнать больше об исследовании</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews">
+        <div class="reviews__container">
+          <div class="slider__wrapper">
+            <ul class="reviews__list slider__list">
+              <li class="reviews__item slider__item--currant">
+                <h4 class="reviews__name">Николай Петров</h4>
+                <p class="reviews__age-and-work">25 лет, водитель трамвая</p>
+                <blockquote class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</blockquote>
+              </li>
+              <li class="reviews__item slider__item">
+                <h4 class="reviews__name">Николай Петров</h4>
+                <p class="reviews__age-and-work">25 лет, водитель трамвая</p>
+                <blockquote class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</blockquote>
+              </li>
+              <li class="reviews__item slider__item">
+                <h4 class="reviews__name">Николай Петров</h4>
+                <p class="reviews__age-and-work">25 лет, водитель трамвая</p>
+                <blockquote class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</blockquote>
+              </li>
+            </ul>
+          </div>
+          <div class="pagination__wrapper">
+            <ul class="reviews__buttons pagination__buttons">
+              <li class="reviews__button pagination__button">
+                <button class="reviews-toggle pagination__toggle--currant" type="button" aria-label="первый коментарий"></button>
+              </li>
+              <li class="reviews__button pagination__button">
+                <button class="reviews-toggle pagination__toggle" type="button" aria-label="второй коментарий"></button>
+              </li>
+              <li class="reviews__button pagination__button">
+                <button class="reviews-toggle pagination__toggle" type="button" aria-label="третий коментарий"></button>
+              </li>
+            </ul>
+          </div>
+          <button type="button" class="reviews__next" aria-label="next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21.706" height="41.719" viewBox="0 0 21.706 41.719">
+              <path fill="#bec2c7" d="M19.66 20.86L.25 1.445c-.33-.33-.33-.867 0-1.198.33-.33.867-.33 1.197 0L21.458 20.26c.33.33.33.867 0 1.197L1.445 41.47c-.164.166-.382.25-.6.25s-.433-.084-.598-.25c-.33-.33-.33-.866 0-1.197L19.66 20.86z"/>
+            </svg>
+          </batton>
+          <button type="button" class="reviews__back" aria-label="back">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21.706" height="41.719" viewBox="0 0 21.706 41.719">
+              <path fill="#bec2c7" d="M2.045 20.86L21.458 1.445c.33-.33.33-.867 0-1.198-.33-.33-.867-.33-1.197 0L.25 20.26c-.33.33-.33.868 0 1.198L20.26 41.47c.165.166.383.25.6.25s.434-.084.6-.25c.33-.33.33-.866 0-1.197L2.044 20.86z"/>
+            </svg>
+        </div>
+        </batton>
+      </section>
+
+      <section class="tariffs">
+        <div class="tariffs__container">
+          <div class="tariffs__table-container">
+            <table class="tariffs__table table">
+              <tr>
+                <td class="tariffs__value">
+                  <h4 class="tariffs__tariff-name">База</h4>
+                  <p class="tariffs__tariff-cost">1,99 USD</p>
+                </td>
+                <td class="tariffs__value">
+                  <h4 class="tariffs__tariff-name">Стандарт</h4>
+                  <p class="tariffs__tariff-cost">3,99 USD</p>
+                </td>
+                <td class="tariffs__value">
+                  <h4 class="tariffs__tariff-name">Анлим</h4>
+                  <p class="tariffs__tariff-cost">9,99 USD</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="tariffs__pink-filter">Розовый фильтр</td>
+                <td class="tariffs__pink-filter">Розовый фильтр</td>
+                <td class="tariffs__pink-filter">Розовый фильтр</td>
+              </tr>
+              <tr>
+                <td class="tariffs__sliles">Смайлии</td>
+                <td class="tariffs__sliles">Смайлии</td>
+                <td class="tariffs__sliles">Смайлии</td>
+              </tr>
+              <tr>
+                <td class="tariffs__comments">Коментарии</td>
+                <td class="tariffs__comments">Коментарии</td>
+                <td class="tariffs__comments">Коментарии</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <ul class="tariffs__buttons pagination__buttons">
+          <li class="tariffs__button pagination__button">
+            <button class="tariffs-toggle pagination__toggle" type="button" aria-label="первый тариф"></button>
+          </li>
+          <li class="tariffs__button pagination__button">
+            <button class="tariffs-toggle pagination__toggle--currant" type="button" aria-label="второй тариф"></button>
+          </li>
+          <li class="tariffs__button pagination__button">
+            <button class="tariffs-toggle pagination__toggle" type="button" aria-label="третий тариф"></button>
+          </li>
+        </ul>
+      </section>
+
+      <section class="tariffs--tablet">
+        <div class="tariffs__container--tablet">
+          <div class="tariffs__table-container--tablet">
+            <table class="tariffs__table--tablet table">
+              <tr>
+                <td class="tariffs__etempty-data"></td>
+                <td class="tariffs__value">
+                  <h4 class="tariffs__tariff-name">База</h4>
+                  <p class="tariffs__tariff-cost">1,99 USD</p>
+                </td>
+                <td class="tariffs__value">
+                  <h4 class="tariffs__tariff-name">Стандарт</h4>
+                  <p class="tariffs__tariff-cost">3,99 USD</p>
+                </td>
+                <td class="tariffs__value">
+                  <h4 class="tariffs__tariff-name">Анлим</h4>
+                  <p class="tariffs__tariff-cost">9,99 USD</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="tariffs__pink-filter">Розовый фильтр</td>
+                <td class="tariffs__pink-filter">
+                  <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                 width="31px" height="21px" viewBox="-82.357 4.875 21.698 16.09" enable-background="new -82.357 4.875 21.698 16.09"
+	                  xml:space="preserve">
+                  <path fill="#3dc644" d="M-60.953,5.167c-0.391-0.391-1.023-0.391-1.414,0L-75.75,18.551l-4.9-4.9c-0.391-0.391-1.023-0.391-1.414,0
+	                 s-0.391,1.023,0,1.414l5.607,5.607c0.195,0.195,0.451,0.293,0.707,0.293s0.512-0.098,0.707-0.293l14.09-14.09
+	                 C-60.562,6.191-60.562,5.558-60.953,5.167z"/>
+                 </svg>
+                </td>
+                <td class="tariffs__pink-filter">
+                  <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                 width="31px" height="21px" viewBox="-82.357 4.875 21.698 16.09" enable-background="new -82.357 4.875 21.698 16.09"
+	                  xml:space="preserve">
+                  <path fill="#3dc644" d="M-60.953,5.167c-0.391-0.391-1.023-0.391-1.414,0L-75.75,18.551l-4.9-4.9c-0.391-0.391-1.023-0.391-1.414,0
+	                 s-0.391,1.023,0,1.414l5.607,5.607c0.195,0.195,0.451,0.293,0.707,0.293s0.512-0.098,0.707-0.293l14.09-14.09
+	                 C-60.562,6.191-60.562,5.558-60.953,5.167z"/>
+                </td>
+                <td class="tariffs__pink-filter">
+                  <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                 width="31px" height="21px" viewBox="-82.357 4.875 21.698 16.09" enable-background="new -82.357 4.875 21.698 16.09"
+	                  xml:space="preserve">
+                  <path fill="#3dc644" d="M-60.953,5.167c-0.391-0.391-1.023-0.391-1.414,0L-75.75,18.551l-4.9-4.9c-0.391-0.391-1.023-0.391-1.414,0
+	                 s-0.391,1.023,0,1.414l5.607,5.607c0.195,0.195,0.451,0.293,0.707,0.293s0.512-0.098,0.707-0.293l14.09-14.09
+	                 C-60.562,6.191-60.562,5.558-60.953,5.167z"/>
+                </td>
+              </tr>
+              <tr>
+                <td class="tariffs__sliles">Смайлии</td>
+                <td class="tariffs__sliles">
+                  <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  width="27px" height="27px" viewBox="0 0 26.8 26.8" enable-background="new 0 0 26.8 26.8" xml:space="preserve">
+                  <path fill="#F25B26" d="M15.5,13.4L26.3,2.6c0.6-0.6,0.6-1.5,0-2.1c-0.6-0.6-1.5-0.6-2.1,0L13.4,11.3L2.6,0.4C2-0.1,1-0.1,0.4,0.4
+                   C-0.1,1-0.1,2,0.4,2.6l10.8,10.8L0.4,24.2c-0.6,0.6-0.6,1.5,0,2.1c0.3,0.3,0.7,0.4,1.1,0.4c0.4,0,0.8-0.1,1.1-0.4l10.8-10.8
+                   l10.8,10.8c0.3,0.3,0.7,0.4,1.1,0.4c0.4,0,0.8-0.1,1.1-0.4c0.6-0.6,0.6-1.5,0-2.1L15.5,13.4z"/>
+                 </svg>
+                </td>
+                <td class="tariffs__sliles">
+                  <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                 width="31px" height="21px" viewBox="-82.357 4.875 21.698 16.09" enable-background="new -82.357 4.875 21.698 16.09"
+	                  xml:space="preserve">
+                  <path fill="#3dc644" d="M-60.953,5.167c-0.391-0.391-1.023-0.391-1.414,0L-75.75,18.551l-4.9-4.9c-0.391-0.391-1.023-0.391-1.414,0
+	                 s-0.391,1.023,0,1.414l5.607,5.607c0.195,0.195,0.451,0.293,0.707,0.293s0.512-0.098,0.707-0.293l14.09-14.09
+	                 C-60.562,6.191-60.562,5.558-60.953,5.167z"/>
+                </td>
+                <td class="tariffs__sliles">
+                  <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                 width="31px" height="21px" viewBox="-82.357 4.875 21.698 16.09" enable-background="new -82.357 4.875 21.698 16.09"
+	                  xml:space="preserve">
+                  <path fill="#3dc644" d="M-60.953,5.167c-0.391-0.391-1.023-0.391-1.414,0L-75.75,18.551l-4.9-4.9c-0.391-0.391-1.023-0.391-1.414,0
+	                 s-0.391,1.023,0,1.414l5.607,5.607c0.195,0.195,0.451,0.293,0.707,0.293s0.512-0.098,0.707-0.293l14.09-14.09
+	                 C-60.562,6.191-60.562,5.558-60.953,5.167z"/>
+                </td>
+              </tr>
+              <tr>
+                <td class="tariffs__comments">Коментарии</td>
+                <td class="tariffs__comments">
+                  <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  width="27px" height="27px" viewBox="0 0 26.8 26.8" enable-background="new 0 0 26.8 26.8" xml:space="preserve">
+                  <path fill="#F25B26" d="M15.5,13.4L26.3,2.6c0.6-0.6,0.6-1.5,0-2.1c-0.6-0.6-1.5-0.6-2.1,0L13.4,11.3L2.6,0.4C2-0.1,1-0.1,0.4,0.4
+                   C-0.1,1-0.1,2,0.4,2.6l10.8,10.8L0.4,24.2c-0.6,0.6-0.6,1.5,0,2.1c0.3,0.3,0.7,0.4,1.1,0.4c0.4,0,0.8-0.1,1.1-0.4l10.8-10.8
+                   l10.8,10.8c0.3,0.3,0.7,0.4,1.1,0.4c0.4,0,0.8-0.1,1.1-0.4c0.6-0.6,0.6-1.5,0-2.1L15.5,13.4z"/>
+                 </svg>
+                </td>
+                <td class="tariffs__comments">
+                  <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  width="27px" height="27px" viewBox="0 0 26.8 26.8" enable-background="new 0 0 26.8 26.8" xml:space="preserve">
+                  <path fill="#F25B26" d="M15.5,13.4L26.3,2.6c0.6-0.6,0.6-1.5,0-2.1c-0.6-0.6-1.5-0.6-2.1,0L13.4,11.3L2.6,0.4C2-0.1,1-0.1,0.4,0.4
+                   C-0.1,1-0.1,2,0.4,2.6l10.8,10.8L0.4,24.2c-0.6,0.6-0.6,1.5,0,2.1c0.3,0.3,0.7,0.4,1.1,0.4c0.4,0,0.8-0.1,1.1-0.4l10.8-10.8
+                   l10.8,10.8c0.3,0.3,0.7,0.4,1.1,0.4c0.4,0,0.8-0.1,1.1-0.4c0.6-0.6,0.6-1.5,0-2.1L15.5,13.4z"/>
+                 </svg>
+                </td>
+                <td class="tariffs__comments">
+                  <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                 width="31px" height="21px" viewBox="-82.357 4.875 21.698 16.09" enable-background="new -82.357 4.875 21.698 16.09"
+	                  xml:space="preserve">
+                  <path fill="#3dc644" d="M-60.953,5.167c-0.391-0.391-1.023-0.391-1.414,0L-75.75,18.551l-4.9-4.9c-0.391-0.391-1.023-0.391-1.414,0
+	                 s-0.391,1.023,0,1.414l5.607,5.607c0.195,0.195,0.451,0.293,0.707,0.293s0.512-0.098,0.707-0.293l14.09-14.09
+	                 C-60.562,6.191-60.562,5.558-60.953,5.167z"/>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <footer class="page-footer">
+
+      <section class="contacts">
+        <div class="contacts__container">
+          <h2 class="contacts__title">Остались вопросы? Свяжитесь с нами!</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <h4 class="contacts__conection">Звоните:</h4>
+              <p class="contacts__text">+7 (812) 555-66-66</p>
+            </li>
+            <li class="contacts__item">
+              <h4 class="contacts__conection">Пишите:</h4>
+              <p class="contacts__text">mail@htmlacademy.ru</p>
+            </li>
+            <li class="contacts__item">
+              <h4 class="contacts__conection">Приезжайте в гости:</h4>
+              <p class="contacts__text">ул. Большая Конюшенная, 19/8</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="map">
+        <img class="map__minimap" src="img/bg-map-mobile.jpg" alt="ул. Большая Конюшенная, 19/8">
+      </section>
+
+      <div class="page-footer__container">
+        <svg class="page-footer__logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        width="146.3px" height="40.375px" viewBox="0 0 146.3 40.375" enable-background="new 0 0 146.3 40.375" xml:space="preserve">
+        <g>
+          <path fill="#283645" d="M71.874,18.661c0-0.708,0.58-1.288,1.256-1.288h7.18c5.087,0,8.436,2.704,8.436,7.146v0.063
+            c0,4.86-4.057,7.373-8.854,7.373h-5.475v6.825c0,0.708-0.58,1.287-1.289,1.287c-0.676,0-1.256-0.58-1.256-1.287L71.874,18.661
+            L71.874,18.661z M79.988,29.641c3.734,0,6.182-1.996,6.182-4.959v-0.062c0-3.221-2.414-4.894-6.053-4.894h-5.699v9.917h5.57V29.641
+            z"/>
+          <path fill="#283645" d="M93.603,18.5c0-0.708,0.579-1.288,1.255-1.288c0.709,0,1.288,0.58,1.288,1.288v20.283
+            c0,0.708-0.579,1.287-1.288,1.287c-0.676,0-1.255-0.579-1.255-1.287V18.5z"/>
+          <path fill="#283645" d="M102.744,18.532c0-0.676,0.58-1.256,1.256-1.256h0.354c0.58,0,0.935,0.29,1.288,0.74l13.684,17.45V18.468
+            c0-0.676,0.547-1.256,1.256-1.256c0.676,0,1.225,0.58,1.225,1.256v20.349c0,0.677-0.48,1.19-1.158,1.19h-0.129
+            c-0.548,0-0.936-0.321-1.318-0.772l-13.976-17.867v17.449c0,0.677-0.547,1.257-1.257,1.257c-0.676,0-1.223-0.58-1.223-1.257V18.532
+            H102.744z"/>
+          <path fill="#283645" d="M128.173,18.5c0-0.708,0.58-1.288,1.257-1.288c0.708,0,1.286,0.58,1.286,1.288v12.331l12.848-13.168
+            c0.29-0.257,0.579-0.451,0.998-0.451c0.676,0,1.225,0.612,1.225,1.256c0,0.354-0.162,0.644-0.42,0.901l-7.984,7.92l8.564,10.561
+            c0.225,0.291,0.354,0.547,0.354,0.936c0,0.676-0.577,1.288-1.285,1.288c-0.482,0-0.807-0.259-1.03-0.58l-8.401-10.464l-4.863,4.861
+            v4.895c0,0.708-0.578,1.288-1.286,1.288c-0.677,0-1.257-0.58-1.257-1.288V18.5H128.173z"/>
+          </g>
+          <path fill="#FFFFFF" d="M60.498,28.266"/>
+          <path fill="#D22856" d="M60.462,28.016c-0.002-0.009-5.175-21.365-5.175-21.365C54.926,4.303,52.694,0,46.688,0
+          c-0.829,0-1.5,0.671-1.5,1.5s0.671,1.5,1.5,1.5c4.856,0,5.575,3.729,5.639,4.143l4.767,19.701h-2.073
+          c-0.742-5.927-5.802-10.531-11.927-10.531s-11.186,4.604-11.927,10.531h-1.82c-0.741-5.927-5.802-10.531-11.927-10.531
+          S6.235,20.917,5.493,26.844H3.42L8.187,7.143C8.25,6.729,8.97,3,13.826,3c0.829,0,1.5-0.671,1.5-1.5S14.655,0,13.826,0
+          C7.82,0,5.588,4.303,5.227,6.651c0,0-5.173,21.356-5.175,21.365c-0.266,1.109,0.531,1.826,1.426,1.826
+          c0.012,0,0.023,0.004,0.036,0.004h3.982c0.741,5.926,5.802,10.53,11.927,10.53s11.185-4.604,11.927-10.53h1.814
+          c0.742,5.926,5.802,10.53,11.927,10.53s11.186-4.604,11.927-10.53H59c0.012,0,0.023-0.004,0.036-0.004
+          C59.931,29.842,60.728,29.125,60.462,28.016z M26.315,29.844c-0.715,4.272-4.421,7.531-8.896,7.531s-8.18-3.259-8.896-7.531
+          c-0.082-0.488-0.135-0.988-0.135-1.5s0.053-1.011,0.135-1.5c0.715-4.271,4.421-7.531,8.896-7.531s8.18,3.26,8.896,7.531
+          c0.082,0.489,0.135,0.988,0.135,1.5S26.397,29.355,26.315,29.844z M51.99,29.844c-0.716,4.272-4.421,7.531-8.896,7.531
+          c-4.475,0-8.181-3.259-8.896-7.531c-0.082-0.488-0.135-0.988-0.135-1.5s0.053-1.011,0.135-1.5c0.716-4.271,4.421-7.531,8.896-7.531
+          c4.475,0,8.181,3.26,8.896,7.531c0.082,0.489,0.135,0.988,0.135,1.5S52.072,29.355,51.99,29.844z"/>
+        </svg>
+        <ul class="page-footer__social-links-list">
+          <li class="social-links-list__item">
+            <a class="social-links-list__link twitter" href="twtiter" aria-label="twitter">
+              <svg version="1" xmlns="http://www.w3.org/2000/svg" width="17.5" height="14.663" viewBox="0 0 17.5 14.663">
+                <path fill="#d22856" fill-rule="evenodd" clip-rule="evenodd" d="M11.283.153c1.736-.485 3.074.263 3.685 1.15.694-.225 1.372-.47 2.072-.69-.004.84-.538 1.478-.883 1.727.704.166 1.343-.48 1.343-.48-.175.976-1.035 1.746-1.61 1.977-.24 6.592-3.273 10.956-10.383 10.823h-.46c-.422 0-4.29-.45-5.047-1.843 2.34.192 4.01-.412 4.835-1.15-.99-.293-2.76-.464-3.07-2.88.362.104.583.222 1.228.116C1.757 8.067.385 7.366.46 5.218c.295.32 1.1.523 1.382.46C1.117 5.445-.188 2.4.922.844c1.872 1.81 3.847 3.52 7.368 3.685.216-2.24 1.17-3.74 2.993-4.375z"/>
+              </svg>
+            </a>
+          </li>
+          <li class="social-links-list__item">
+            <a class="social-links-list__link fb" href="facebook" aria-label="Фейсбук">
+              <svg version="1" xmlns="http://www.w3.org/2000/svg" width="8.673" height="18.944" viewBox="0 0 8.673 18.944">
+                <path fill="#d22856" d="M6.275 3.357h2.398V0H5.795C2.655.18 1.54 2.387 1.948 6.115H0v3.517h1.958v9.312h3.837V9.632h2.857V6.115H5.786c-.02-1.045-.036-2.406.49-2.758z"/>
+              </svg>
+            </a>
+          </li>
+          <li class="social-links-list__item">
+            <a class="social-links-list__link youtube" href="youtube" aria-label="youtube">
+              <svg version="1" xmlns="http://www.w3.org/2000/svg" width="14.64" height="13.96" viewBox="0 0 14.64 13.96">
+                <path fill="#d22856" d="M1.775 13.78C.8 14.257 0 13.758 0 12.67V1.29C0 .202.8-.295 1.775.18l12.133 5.933c.975.478.975 1.258 0 1.736L1.775 13.78z"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <aside class="page-footer__developer">
+          <p class="page-footer__developer-list">Разработано</p>
+          <a class="page-footer__develper-logo" href="htmlacademy" aria-label="htmlacademy">
+            <svg version="1" xmlns="http://www.w3.org/2000/svg" width="26.943" height="34.09" viewBox="0 0 26.943 34.09">
+              <path d="M13.62.017L13.472 0 0 1.412v24.66l13.472 8.018 13.43-7.99.042-.026V1.412L13.62.017zm11.4 12.11L13.494 5.334V5.23l-.088.05-.088-.056v.11L1.924 12.117v-8.97l11.547-1.213L25.02 3.147v8.98zm-11.615-5.34L24.923 13.5l-4.48 2.64-7.092-4.22-.012 1.414 5.904 3.513-.86.507-5.03-2.992-.014 1.415 3.827 2.275-.782.523-3.032-1.787-.012 1.413 1.852 1.092-1.8 1.08-11.356-6.75 11.37-6.835zm-11.48 8.34l11.41 6.79.016 1.045-7.94-4.728-.015 1.416 7.98 4.796.016 1.076-7.97-4.74-.014 1.414 8.02 4.82.046.027 8.143-4.872v-1.267l-.01-.148v-3.76l3.414-2.037v10.02L13.47 31.85 1.925 24.98v-9.853z"/>
+            </svg>
+          </a>
+        </aside>
+      </div>
+
+    </footer>
+  </body>

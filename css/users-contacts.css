@@ -1,0 +1,103 @@
+.users-contacts {
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+
+.users-contacts__label-for-users-phone,
+.users-contacts__label-for-users-email {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #d22856; }
+
+.users-contacts__users-phone,
+.users-contacts__users-email {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #283645;
+  border: 2px solid #e5e5e5;
+  min-height: 63px;
+  min-width: 280px; }
+
+.users-contacts__legend {
+  display: none; }
+
+.users-contacts__phone-img {
+  display: none; }
+
+.users-contacts__mail-img {
+  display: none; }
+
+@media (min-width: 660px) {
+  .users-contacts {
+    width: 660px;
+    border: 2px solid #e5e5e5; }
+  .users-contacts__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 59px;
+    padding-right: 59px; }
+  .users-contacts__legend {
+    display: block;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    color: #d22856;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px; }
+  .users-contacts__users-phone {
+    order: 1;
+    min-width: 420px; }
+  .users-contacts__phone-img {
+    display: block;
+    width: 63px;
+    height: 69px;
+    background-color: #e5e5e5;
+    order: 2;
+    background-image: url(../img/icon-phone.svg);
+    background-repeat: no-repeat;
+    background-position: center; }
+  .users-contacts__label-for-users-phone {
+    order: 3; }
+  .users-contacts__users-email {
+    order: 4;
+    min-width: 420px; }
+  .users-contacts__mail-img {
+    display: block;
+    width: 63px;
+    height: 69px;
+    background-color: #e5e5e5;
+    order: 5;
+    background-image: url(../img/icon-mail.svg);
+    background-repeat: no-repeat;
+    background-position: center; }
+  .users-contacts__label-for-users-email {
+    order: 6; } }
+
+@media (min-width: 1200px) {
+  .users-contacts {
+    width: 940px; }
+  .users-contacts__users-phone {
+    order: 1;
+    min-width: 310px; }
+  .users-contacts__phone-img {
+    order: 2; }
+  .users-contacts__users-email {
+    order: 3;
+    min-width: 310px; }
+  .users-contacts__mail-img {
+    order: 4; }
+  .users-contacts__label-for-users-phone {
+    order: 5; }
+  .users-contacts__label-for-users-email {
+    order: 6; } }
+
+/*# sourceMappingURL=users-contacts.css.map */

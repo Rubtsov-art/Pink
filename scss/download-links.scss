@@ -1,0 +1,116 @@
+.download-links {
+  width: 320px;
+  background-color: #1d2631;
+}
+
+.download-links__container {
+  width: 280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.download-links__main-link {
+  text-decoration: none;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  color: white;
+  display: inline-block;
+  border: 3px solid white;
+  margin-top: 28px;
+  padding: 17px 36px;
+  border-radius: 50px;
+  &:hover {
+    background-color: #ffffff;
+    color: #e596a7;
+  }
+  &:active {
+    background-color: #ffffff;
+    color: rgba(210, 40, 86, 0.3);
+  }
+}
+
+.download-links__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: -25px;
+}
+
+.download-links__item {
+  list-style: none;
+}
+
+.download-links__link {
+  display: inline-block;
+  text-decoration: none;
+  min-height: 59px;
+  min-width: 62px;
+  background-position: bottom;
+}
+
+.download-Itunes {
+  background-image: url(../img/apple-logo.svg);
+  background-repeat: no-repeat;
+}
+
+.download-PlayMarket {
+  background-image: url(../img/android-logo.svg);
+  background-repeat: no-repeat;
+}
+
+.download-Microsoft {
+  background-image: url(../img/microsoft-logo.svg);
+  background-repeat: no-repeat;
+}
+
+.download-links__legend {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+}
+
+.download-links__title {
+  display: none;
+}
+
+@media (min-width: 660px) {
+  .download-links__title {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 100;
+    color: white;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+  }
+
+  .download-links {
+    position: absolute;
+    z-index: 7;
+    top: 440px;
+    background-color: rgba(0, 0, 0, 0)
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .download-links__title {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .download-links {
+    top: 170px;
+    left: 120px;
+  }
+
+}

@@ -1,0 +1,50 @@
+.pagination__buttons {
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  margin-left: 111px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination__button {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pagination__toggle {
+  padding: 0;
+  margin: 0;
+  background-color: #bec2c7;
+  border: none;
+  display: inline-block;
+  width: 6px;
+  min-height: 6px;
+  border-radius: 50% 50%;
+}
+
+.pagination__toggle--currant {
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  border: 3px solid #33404e;
+  display: inline-block;
+  min-width: 12px;
+  min-height: 12px;
+  border-radius: 50%;
+}
+
+@media (min-width: 660px) {
+
+  .pagination__wrapper {
+    width: 620px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .reviews__buttons {
+    margin-left: 258px;
+  }
+
+}

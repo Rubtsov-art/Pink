@@ -1,0 +1,27 @@
+.success-submit {
+  margin: 0;
+  padding: 0; }
+
+.success-submit__title {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: black; }
+
+.success-submit__text {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #283645; }
+
+@media (min-width: 660px) {
+  .success-submit {
+    width: 460px;
+    padding: 70px 37px; }
+  .success-submit__title {
+    text-align: center; }
+  .success-submit__text {
+    text-align: center; } }
+
+/*# sourceMappingURL=success-submit.css.map */

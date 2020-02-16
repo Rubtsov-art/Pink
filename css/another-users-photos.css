@@ -1,0 +1,140 @@
+.another-users-photos {
+  padding: 0;
+  margin: 0;
+  width: 320px; }
+
+.another-users-photos__container,
+.another-users-photos__best-panorama-container {
+  width: 280px;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+.another-users-photos__best-panorama {
+  padding: 0;
+  margin: 0;
+  position: relative; }
+
+.another-users-photos__text-wrapper,
+.another-users-photos__best-panorama-text-wrapper {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.another-users-photos__best-panorama-label-for-img {
+  font-family: "Open Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 24px;
+  color: white;
+  background-color: #d22856;
+  display: inline-block;
+  min-width: 140px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  top: -16px;
+  left: 150px; }
+
+.another-users-photos__best-panorama-img {
+  margin: 0;
+  padding: 0; }
+
+.another-users-photos__best-panorama-img--tablet {
+  margin: 0;
+  padding: 0;
+  display: none; }
+
+.another-users-photos__best-panorama-img--desktop {
+  margin: 0;
+  padding: 0;
+  display: none; }
+
+.another-users-photos__list {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.users-photos-list__img--tablet {
+  padding: 0;
+  margin: 0;
+  display: none; }
+
+.users-photos-list__img--desktop {
+  margin: 0;
+  padding: 0;
+  display: none; }
+
+.another-users-photos__best-panorama-coment-text,
+.users-photos-list__coment-text {
+  margin: 0;
+  padding: 0;
+  min-width: 100%; }
+
+@media (min-width: 660px) {
+  .another-users-photos {
+    width: 660px; }
+  .another-users-photos__best-panorama-container,
+  .another-users-photos__container {
+    width: 620px; }
+  .another-users-photos__best-panorama-img {
+    display: none; }
+  .another-users-photos__best-panorama-img--tablet {
+    display: block;
+    width: 660px; }
+  .another-users-photos__best-panorama-label-for-img {
+    left: 470px;
+    top: 40px; }
+  .another-users-photos__best-panorama-commentator-name {
+    order: 1; }
+  .another-users-photos__best-panorama-comment-time {
+    order: 2; }
+  .another-users-photos__best-panorama-like-coutner {
+    order: 3;
+    margin-left: 305px; }
+  .another-users-photos__best-panorama-like {
+    order: 4; }
+  .another-users-photos__best-panorama-coment-text {
+    order: 5; }
+  .users-photos-list__img {
+    display: none; }
+  .another-users-photos__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  .users-photos-list__img--tablet {
+    display: block; }
+  .another-users-photos__text-wrapper {
+    width: 260px;
+    height: 154px; }
+  .users-photos-list__like {
+    order: 2;
+    margin-left: 130px; }
+  .users-photos-list__like-coutner {
+    order: 1; } }
+
+@media (min-width: 1200px) {
+  .another-users-photos {
+    width: 1200px; }
+  .another-users-photos__best-panorama-container,
+  .another-users-photos__container {
+    width: 940px;
+    padding: 0 130px; }
+  .users-photos-list__img--tablet {
+    display: none; }
+  .users-photos-list__img--desktop {
+    display: block; }
+  .another-users-photos__best-panorama-img--tablet {
+    display: none; }
+  .another-users-photos__best-panorama-img--desktop {
+    display: block; }
+  .another-users-photos__best-panorama-label-for-img {
+    left: 920px;
+    top: 40px; }
+  .another-users-photos__best-panorama-like-coutner {
+    margin-left: 616px; } }
+
+/*# sourceMappingURL=another-users-photos.css.map */

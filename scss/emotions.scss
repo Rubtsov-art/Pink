@@ -1,0 +1,57 @@
+.emotions {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.emotions__users-emotions {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #283645;
+  border: 2px solid #e5e5e5;
+}
+
+@media (min-width: 660px) {
+
+  .emotions {
+    width: 620px;
+    min-height: 290px;
+    border: 2px solid #e5e5e5;
+  }
+
+  .emotions__users-emotions {
+    width: 500px;
+    margin-top: 45px;
+    margin-left: 55px;
+  }
+
+  .emotions__legend {
+    margin-left: 160px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .emotions {
+    width: 940px;
+    min-height: 220px;
+  }
+
+  .emotions__users-emotions {
+    width: 820px;
+    min-height: 132px;
+    margin-top: 25px;
+    margin-left: 55px;
+  }
+
+  .emotions__legend {
+    margin-left: 160px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+}

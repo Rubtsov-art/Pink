@@ -1,0 +1,73 @@
+.button {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #d22856;
+  display: inline-block;
+  min-width: 282px;
+  min-height: 55px;
+  border: 3px solid #d22856;
+  border-radius: 25px 25px;
+  cursor: pointer;
+}
+
+.button--desktop {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #d22856;
+  display: inline-block;
+  min-width: 186px;
+  min-height: 55px;
+  border: 3px solid #d22856;
+  border-radius: 25px 25px;
+  cursor: pointer;
+}
+
+.button--not-currant {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #d22856;
+  display: inline-block;
+  min-width: 282px;
+  min-height: 55px;
+  border: 3px solid #d22856;
+  border-radius: 25px 25px;
+  cursor: pointer;
+  opacity: 0.2;
+}
+
+.button--not-currant--desktop {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #d22856;
+  display: inline-block;
+  min-width: 186px;
+  min-height: 55px;
+  border: 3px solid #d22856;
+  border-radius: 25px 25px;
+  cursor: pointer;
+  opacity: 0.2;
+}
+
+.button--submit-form {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: inline-block;
+  min-width: 282px;
+  min-height: 55px;
+  background-color: #2aab6d;
+  border: none;
+  border-radius: 5px 5px;
+  cursor: pointer;
+}

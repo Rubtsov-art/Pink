@@ -1,0 +1,177 @@
+.page-header {
+  width: 320px;
+  margin: 0;
+  padding: 0; }
+
+.page-header__main-menu {
+  min-height: 462px;
+  background-image: url(../img/background-mobile@1x.jpg);
+  background-position: -250px 0px;
+  position: relative;
+  background-repeat: no-repeat; }
+
+.page-header__main-menu--photos {
+  min-height: 237px;
+  background-image: url(../img/background-mobile@1x.jpg);
+  background-position: -200px -40px;
+  position: relative;
+  background-repeat: no-repeat; }
+
+.page-header__main-menu--forms {
+  min-height: 237px;
+  background-image: url(../img/background-mobile@1x.jpg);
+  background-position: -200px 0px;
+  position: relative;
+  background-repeat: no-repeat; }
+
+.page-header__wrapper {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(28, 37, 48, 0.3); }
+
+.page-header__container {
+  width: 280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  min-height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.page-header__container--photos {
+  width: 280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  min-height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.page-header__logo {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+.page-header__logo-image:hover g {
+  fill: #d22856; }
+
+.page-header__logo-image:active g {
+  fill: rgba(255, 255, 255, 0.3); }
+
+.page-header__toggle {
+  min-width: 52px;
+  min-height: 27px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0); }
+
+.page-header__svg path {
+  fill: white; }
+
+.page-header__svg:hover path {
+  fill: #d22856; }
+
+.page-header__svg:active path {
+  fill: rgba(210, 40, 86, 0.3); }
+
+.page-header__phone--mobile {
+  position: absolute;
+  top: 176px;
+  z-index: 0; }
+
+.page-header__phone--tablet {
+  position: absolute;
+  top: 176px;
+  z-index: 0;
+  display: none; }
+
+.page-header__phone--desktop {
+  position: absolute;
+  top: 176px;
+  z-index: 0;
+  display: none; }
+
+.page-header__title--photos {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 100;
+  color: #ffffff; }
+
+@media (min-width: 660px) {
+  .page-header {
+    width: 660px;
+    margin: 0;
+    padding: 0; }
+  .page-header__container {
+    width: 620px; }
+  .page-header__container--photos {
+    width: 620px; }
+  .page-header__main-menu {
+    min-height: 730px;
+    background-image: url(../img/background-tablet@1x.jpg);
+    background-position: -280px -60px;
+    position: relative;
+    background-repeat: no-repeat; }
+  .page-header__main-menu--photos {
+    min-height: 440px;
+    background-image: url(../img/background-tablet@1x.jpg);
+    background-position: -280px -60px;
+    position: relative;
+    background-repeat: no-repeat; }
+  .page-header__main-menu--forms {
+    background-image: url(../img/background-tablet@1x.jpg);
+    background-position: -280px -60px;
+    min-height: 396px; }
+  .page-header__phone--mobile {
+    top: 124px;
+    left: -10px; }
+  .page-header__title--photos {
+    font-size: 45px;
+    line-height: 50px;
+    margin-left: 24px; } }
+
+@media (min-width: 1200px) {
+  .page-header__container {
+    width: 940px;
+    padding: 0 130px;
+    min-height: 110px; }
+  .page-header__container--photos {
+    width: 940px;
+    padding: 0 130px;
+    min-height: 110px; }
+  .page-header {
+    width: 1200px; }
+  .page-header__wrapper {
+    background-color: rgba(15, 20, 26, 0.5); }
+  .page-header__main-menu {
+    background-image: url(../img/background-fullsize.jpg);
+    background-position: -700px -700px;
+    min-height: 855px; }
+  .page-header__main-menu--photos {
+    background-image: url(../img/background-fullsize.jpg);
+    background-position: -700px -700px;
+    min-height: 396px; }
+  .page-header__main-menu--forms {
+    background-image: url(../img/background-fullsize.jpg);
+    background-position: -700px -700px;
+    min-height: 396px; }
+  .page-header__toggle {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden; }
+  .page-header__phone--mobile {
+    top: 210px;
+    left: 100px; }
+  .page-header__title--photos {
+    font-size: 45px;
+    line-height: 50px;
+    margin-left: 424px;
+    margin-right: 424px;
+    text-align: center; } }
+
+/*# sourceMappingURL=page-header.css.map */
